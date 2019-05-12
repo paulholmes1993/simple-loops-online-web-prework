@@ -1,7 +1,8 @@
 # REMEMBER: print your output to the terminal using 'puts'
 def loop_iterator(number_of_times)
   counter = 0
-  loop 
+  loop do
+    counter number_of_times
 end
 
 def times_iterator(number_of_times)
